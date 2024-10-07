@@ -18,5 +18,5 @@ class CustomUser(AbstractUser):
 class Report(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
-    creatied_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
     created_by = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
