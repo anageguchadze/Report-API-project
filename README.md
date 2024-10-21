@@ -29,4 +29,4 @@ The Reporting API is a RESTful web service built using Django and Django Rest Fr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/reporting-api.git
+   git clone https://github.com/anageguchadze/Report-API-project
